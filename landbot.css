@@ -1,0 +1,129 @@
+*  {
+    margin:0;
+    padding:0;
+     }
+   body{
+    background-color: #281e65;
+   }
+   .global-box{
+    margin: 5px;
+    padding:5px;
+    border: 1px solid none ; 
+    border-radius:5px;
+    background-color: #574aab;
+    }
+   .upper-section {
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     color:white;
+     font-family:sans-serif;
+     font-size:12px;
+   }
+   .connect-button{
+     width:200px;
+     display:flex;
+     justify-content:space-between;
+   
+   }
+   .connect-log{
+     width:100px;
+     height:40px;
+     background-color: #574aab;
+     border:2px solid #574aab;
+     border-radius:20px;
+     color:white;
+     font-family:sans-serif;
+     font-size:15px;
+     font-weight: bold;
+   }
+   .connect-sign{
+     width:150px;
+     height:40px;
+     background-color: #574aab;
+     border:2px solid white;
+     border-radius:20px;
+     color:white;
+     font-family:sans-serif;
+     font-size:15px;
+     font-weight: bold;
+   }
+   .chat{
+     max-width:500px;
+     margin:auto;
+     padding:20px;
+    
+   }
+   .chat-box{
+     margin:5px;
+     margin-bottom:0px;
+     padding:20px;
+     background-color:white;
+     border-radius:20px;
+     color:#452162;
+     font-family:sans-serif;
+     font-size:20px;
+     }
+   .chat-box-1{
+     max-width:260px;
+     margin:5px;
+     margin-bottom:0px;
+     padding:20px;
+     background-color:white;
+     border-radius:20px;
+     color:#452162;
+     font-family:sans-serif;
+     font-size:20px;
+     }
+   .image-hmm{
+     background:url("https://storage.googleapis.com/media.helloumi.com/channels/0_2wVkhpa.gif");
+     
+     height:150px;
+     width:360px;
+     background-repeat:no-repeat;
+     border-radius:20px;
+     background-size:contain;
+     margin:5px;
+   }
+   .inscription{
+     max-width:500px;
+     margin:auto;
+     margin-top:0px;
+     padding:20px;
+     flex-wrap:nowrap;
+     flex-direction:column;
+     color:white;
+     font-family:sans-serif;
+     font-size:20px;
+   }
+   .text-for-options{
+     margin:10px;
+     margin-top:0px;
+     text-transform: uppercase;
+     font-size:15px;
+   }
+   .creat-account{
+     margin:10px;
+     display:flex;
+     justify-content:space-between;
+   }
+   .account-button{
+     width:500px;
+     height:80px;
+     margin:5px;
+     background-color:#ee0076;
+     border:3px solid #bc0044;
+     color:white;
+     font-family:sans-serif;
+     font-size:16px;
+     font-weight: bold;
+   }
+   a{
+       color:white;
+   }
+   .connect-log:hover{
+     background-color:#3e376fcf;
+   }
+   .connect-sign:hover{
+     background-color:red;
+   }
